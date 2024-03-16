@@ -6,7 +6,7 @@
     <title>Minu veebileht</title> <!-- Veebilehe pealkiri, mida näidatakse brauseri tab-is -->
 </head>
 
-<body>
+<body id="app">
 
 <!-- Pealkiri, pilt ja väike kirjeldus -->
 
@@ -19,14 +19,21 @@
 </div>
 
 <!-- Lõbusad faktid -->
+<button onclick="funk()">
+    <img class="icon" src="images/question.png"/>
+</button>
+
+<script>
+    function funk() {
+            document.getElementById("app").style.background='#4A412A';
+    }
+</script>
 
 <div class="container">
     <div class="card">
         <!-- Tee see osa ise! -->
-        <img class="icon" src="images/question.png"/>
         <h1>Kas teadsid, et </h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a odio vel lorem congue
-            facilisis.</p>
+        <p>Rakveres on uhiuus FIGHT CLUB, kus prioriteediks on lõbu.</p>
     </div>
     <div class="card">
 <!--       <img src="images/wallet.jpg" class="wallet"> -->
@@ -62,7 +69,8 @@
 <div>
     <h1>Lisainfo</h1>
     <div class="container">
-        <!-- Tee see osa ise! -->
+        <a href="https://rakvere.edu.ee/"><img src="images/rakverekool.png" alt="Rakvere Gümnaasium" class="lisa-gymna"/></a>
+        <a href=""></a>
     </div>
 </div>
 
