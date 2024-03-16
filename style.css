@@ -5,7 +5,7 @@ body {
     flex-direction: column;
     gap: 3em; /* vahe elementide vahel */
     align-items: center;
-    background-image: url(images/kalevipoeg.jpg);
+    background-image: url(images/kalevipoeg1.jpg);
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 /* #-ga viitame elemendile, millel on selline id */
